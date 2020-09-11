@@ -1,9 +1,9 @@
 'use strict' // si no le pongo esto podria definir una variable sin var
 //de esta manera puedo mejorar las practicas
-/*
+
 alert("alerta desde otro archivo");
 document.write("Hola mundo desde fichero externo")
-*/
+alert("Hola mundo con JS");
 
 console.log("Muestra esto en la consola");
 
@@ -14,6 +14,7 @@ var pais_y_continente =  pais+' '+continente
 pais = "Mexico"
 continente = "America"
 console.log(pais, continente, pais_y_continente);
+console.log('Hola "que" tal');
 alert(pais_y_continente)
 
 //pruebas con let y var
@@ -39,3 +40,13 @@ if(true){
 }
 
 console.log(numero_let); //40
+
+// Constantes: El valor no va a cambiar nunca
+
+var nombre = "Camila"
+const apellido = "Meneses"
+
+nombre = "Andrea" //Aqui si deja cambiar
+apellido = "Torres" //Aqui arroja un error: Uncaught TypeError: Assignment to constant variable.
+
+
