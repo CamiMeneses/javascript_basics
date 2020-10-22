@@ -27,7 +27,7 @@ if(true){
   console.log(numero_var); // 50
 }
 
-console.log(numero_var); // 50
+console.log(numero_var); // 50 var me modifica la variable incluso si la cambio dentro de un if
 
 
 // -------------------------
@@ -39,7 +39,7 @@ if(true){
   console.log(numero_let); // 50
 }
 
-console.log(numero_let); //40
+console.log(numero_let); //40 NO modifica el valor de la varibale dentro del if
 
 // Constantes: El valor no va a cambiar nunca
 
